@@ -1,0 +1,12 @@
+
+
+# Install API Package:
+    php artisan install:api
+
+# Test API with thunder client in VS Code
+    install 'thunder client' extension in VS Code
+
+# Route-model binding for 'delete' API
+    Route::delete('delete-student/{id}', [StudentController::class, 'deleteStudent']);
+
+    
